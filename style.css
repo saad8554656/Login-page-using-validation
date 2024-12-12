@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://plus.unsplash.com/premium_photo-1661410866488-f9c16c7c46aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVnaXN0ZXJ8ZW58MHx8MHx8fDA%3D');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+#form-container {
+    width: 400px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    outline: none;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    color: red;
+    font-size: 14px;
+}

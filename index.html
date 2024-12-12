@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-container">
+        <div id="login-form">
+            <h1>Login Form</h1>
+            <label for="em">Email:</label>
+            <input id="em" type="text" placeholder="Enter your email"> 
+            <span id="email" style="color: red;"></span><br>
+
+            <label for="pw">Password:</label>
+            <input id="pw" type="password" placeholder="Enter your password"> 
+            <span id="password" style="color: red;"></span><br>
+
+            <button id="login-btn" type="submit">Login</button>
+            <p>Don't have an account? <a href="#" id="show-register">Register</a></p>
+        </div>
+
+        <div id="registration-form" style="display: none;">
+            <h1>Registration Form</h1>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name"> 
+            <span id="name-error" style="color: red;"></span><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input id="dob" type="date"> 
+            <span id="dob-error" style="color: red;"></span><br>
+
+            <label for="phone">Phone Number:</label>
+            <input id="phone" type="text" placeholder="Enter your phone number"> 
+            <span id="phone-error" style="color: red;"></span><br>
+
+            <label for="reg-em">Email:</label>
+            <input id="reg-em" type="text" placeholder="Enter your email"> 
+            <span id="reg-email-error" style="color: red;"></span><br>
+
+            <label for="reg-pw">Password:</label>
+            <input id="reg-pw" type="password" placeholder="Enter your password"> 
+            <span id="reg-password-error" style="color: red;"></span><br>
+
+            <label for="confirm-pw">Confirm Password:</label>
+            <input id="confirm-pw" type="password" placeholder="Confirm your password"> 
+            <span id="confirm-password-error" style="color: red;"></span><br>
+
+            <button id="register-btn" type="submit">Register</button>
+            <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
